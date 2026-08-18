@@ -232,21 +232,23 @@ Passenger demand is not distributed equally across stations. Some locations cons
 Average Daily Ridership =
 AVERAGE('lahore_metro_analysis ridership'[daily_ridership])
 
+### Average Occupancy
 
-**### Average Occupancy**
-
+```DAX
 Average Occupancy =
 AVERAGE('lahore_metro_analysis ridership'[occupancy_rate])
 
 
-**### Average Fare**
+### Average Fare
 
+```DAX
 Average Fare =
 AVERAGE('lahore_metro_analysis fare_history'[fare_per_trip_pkr])
 
 
-**### Highest Ridership Station**
+### Highest Ridership Station
 
+```DAX
 Highest Ridership Station = 
 CALCULATE(
     MAX('lahore_metro_analysis ridership'[station_name]),
@@ -259,20 +261,23 @@ CALCULATE(
 )
 
 
-**### Total Ridership**
+### Total Ridership
 
+```DAX
 Total Ridership = 
 SUM('lahore_metro_analysis ridership'[daily_ridership])
 
 
-**### Years Covered**
+### Years Covered
 
+```DAX
 Years Covered = 
 DISTINCTCOUNT('lahore_metro_analysis ridership'[year])
 
 
-**### Peak Ridership Year**
+### Peak Ridership Year
 
+```DAX
 Peak Ridership Year = 
 VAR YearlyTable =
     SUMMARIZE(
@@ -297,7 +302,7 @@ RETURN
 
 
 
-**🚀 Recommendations**
+###🚀 Recommendations
 
 Based on the findings, several operational recommendations can be considered:
 
@@ -343,4 +348,3 @@ Operational Recommendations
 👤 Author
 
 Laiba Rehman
-
