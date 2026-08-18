@@ -224,27 +224,28 @@ Passenger demand is not distributed equally across stations. Some locations cons
 
 
 
-# 🧮 Example DAX Measures
+# 🧮 DAX Measures
 
 ### Average Daily Ridership
 
 ```DAX
 Average Daily Ridership =
 AVERAGE('lahore_metro_analysis ridership'[daily_ridership])
+```
 
 ### Average Occupancy
 
 ```DAX
 Average Occupancy =
 AVERAGE('lahore_metro_analysis ridership'[occupancy_rate])
-
+```
 
 ### Average Fare
 
 ```DAX
 Average Fare =
 AVERAGE('lahore_metro_analysis fare_history'[fare_per_trip_pkr])
-
+```
 
 ### Highest Ridership Station
 
@@ -259,21 +260,21 @@ CALCULATE(
         DESC
     )
 )
-
+```
 
 ### Total Ridership
 
 ```DAX
 Total Ridership = 
 SUM('lahore_metro_analysis ridership'[daily_ridership])
-
+```
 
 ### Years Covered
 
 ```DAX
 Years Covered = 
 DISTINCTCOUNT('lahore_metro_analysis ridership'[year])
-
+```
 
 ### Peak Ridership Year
 
@@ -299,10 +300,9 @@ RETURN
         BestYear,
         'lahore_metro_analysis ridership'[year]
     )
+```
 
-
-
-###🚀 Recommendations
+### 🚀 Recommendations
 
 Based on the findings, several operational recommendations can be considered:
 
@@ -327,7 +327,10 @@ Ridership patterns by day, month, season, and holiday status can be used to deve
 Weather, population, fares, and fuel prices should be considered alongside ridership when evaluating changes in passenger demand.
 
 
-**📌 Project Workflow**
+
+
+### 📌 Project Workflow
+
 Raw Data
    ↓
 Data Preparation
@@ -345,6 +348,7 @@ Business Insights
 Operational Recommendations
 
 
-👤 Author
+
+### 👤 Author
 
 Laiba Rehman
