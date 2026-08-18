@@ -1,0 +1,14 @@
+﻿year,start_date,end_date,duration_days,fare_per_trip_pkr,fare_type,status,fare_changed,reason
+2014,2014-01-01 00:00:00,2014-12-31 00:00:00,365,20,Flat Fare,Implemented,No,Standard Metro Bus Fare
+2015,2015-01-01 00:00:00,2015-12-31 00:00:00,365,20,Flat Fare,Implemented,No,No Fare Change
+2016,2016-01-01 00:00:00,2016-12-31 00:00:00,366,20,Flat Fare,Implemented,No,No Fare Change
+2017,2017-01-01 00:00:00,2017-12-31 00:00:00,365,20,Flat Fare,Implemented,No,No Fare Change
+2018,2018-01-01 00:00:00,2018-12-31 00:00:00,365,20,Flat Fare,Implemented,No,No Fare Change
+2019,2019-01-01 00:00:00,2019-12-31 00:00:00,365,20,Flat Fare,Implemented,No,No Fare Change
+2020,2020-01-01 00:00:00,2020-12-31 00:00:00,366,20,Flat Fare,Implemented,No,No Fare Change
+2021,2021-01-01 00:00:00,2021-12-31 00:00:00,365,20,Flat Fare,Implemented,No,No Fare Change
+2022,2022-01-01 00:00:00,2022-12-31 00:00:00,365,20,Flat Fare,Implemented,No,No Fare Change
+2023,2023-01-01 00:00:00,2023-12-31 00:00:00,365,20,Flat Fare,Implemented,No,No Fare Change
+2024,2024-01-01 00:00:00,2024-02-15 00:00:00,46,20,Flat Fare,Implemented,No,Fare Before Revision
+2024,2024-02-16 00:00:00,2024-12-31 00:00:00,320,30,Flat Fare,Implemented,Yes,Fare Revised By Punjab Mass Transit Authority
+2025,2025-01-01 00:00:00,2025-12-31 00:00:00,365,30,Flat Fare,Implemented,No,Fare Continued After Revision
